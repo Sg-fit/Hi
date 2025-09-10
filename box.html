@@ -1,0 +1,58 @@
+<div class="container">
+    <div class="box">
+        <h2>This is a box</h2>
+        <p>This box is styled using CSS.</p>
+    </div>
+    <div class="box2">
+        <h2>This is another box</h2>
+        <p>This box has a different styling as the first one.</p>
+    </div>
+    <div class="box3">
+        <h2>This is yet another box</h2>
+        <p>This box also has a different styling.</p>
+    </div>
+</div>
+<style>
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 300px;
+        width:800px;
+        border: 2px solid black;
+        padding: 10px;
+        background-color: lightgray;
+        flex-direction: row;
+    }
+    .box {
+        width: 150px;
+        height: 150px;
+        background-color: lightblue;
+        border: 2px solid blue;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        padding: 10px;
+        box-shadow: 0 40px 80px rgba(0, 0, 0, 0.2);
+    }
+    .box2 {
+        width: 150px;
+        height: 150px;
+        background-color: lightgreen;
+        border: 2px dashed green;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        padding: 10px;
+    }
+    .box3 {
+        width: 150px;
+        height: 150px;
+        background-color: lightcoral;
+        border: 2px dotted red;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        padding: 10px;
+    }
+</style>
